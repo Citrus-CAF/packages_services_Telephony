@@ -4015,8 +4015,4 @@ public class PhoneInterfaceManager extends ITelephony.Stub {
 
         return p.getSignalStrength();
     }
-
-    public int getLteOnGsmMode() {
-        return mPhone.getLteOnGsmMode();
-    }
 }
